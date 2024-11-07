@@ -18,7 +18,7 @@ public class Modif4BioskopWithScanner {
             sc.nextLine();
     
             if (menu == 1) {
-                boolean real = false;
+                boolean real = true;
 
                 while (real) {
                     System.out.print("Masukkan nama : ");
@@ -39,7 +39,7 @@ public class Modif4BioskopWithScanner {
                         penonton[baris - 1][kolom - 1] = nama;
                         System.out.println("Data penonton");
                     
-                        real = true;
+                        real = false;
                     }
                 }
             } else if (menu == 2) {
