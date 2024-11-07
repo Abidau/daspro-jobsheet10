@@ -10,6 +10,7 @@ public class Tugas120 {
         double rataKeseluruhan = 0;
 
         for (int i = 0; i < a.length; i++) {
+            System.out.println("Mahasiswa ke-" + (i+1));
             for (int j = 0; j < a[0].length; j++) {
                 System.out.print("Masukkan nilai indeks ke-" + i + ": ");
                 a[i][j] = sc.nextInt();
@@ -21,6 +22,7 @@ public class Tugas120 {
             }
             rata = jml / 6;
             System.out.println("Rata ratanya setiap resonden ke-" + i + " adalah " + rata);
+            System.out.println();
         } jml = 0;
             for (int j = 0; j < a[0].length; j++) {
             jml = 0;
@@ -29,6 +31,7 @@ public class Tugas120 {
                 }
                     rata = jml / 10;
                     System.out.println("Rata ratanya setiap pertanyaan ke-" + j + " adalah " + rata);
+                    System.out.println();
         } for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[0].length; j++) {
                 rataKeseluruhan += a[i][j];
