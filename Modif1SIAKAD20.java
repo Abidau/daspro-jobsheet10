@@ -21,7 +21,7 @@ public class Modif1SIAKAD20 {
                 nilai[i][j] = sc.nextInt();
                 totalPersiswa += nilai[i][j];
             }
-            System.out.println("Nilai rata-rata : " + totalPersiswa/3);
+            System.out.println("Nilai rata-rata : " + totalPersiswa/jmlMatkul);
         }
         System.out.println();
 
@@ -34,7 +34,7 @@ public class Modif1SIAKAD20 {
             for (int i = 0; i < jmlSiswa; i++) {
                 totalPerMatkul += nilai[i][j];
             }
-            System.out.println("Mata Kuliah " + (j+1) + " : " + totalPerMatkul/4);
+            System.out.println("Mata Kuliah " + (j+1) + " : " + totalPerMatkul/jmlMatkul);
         }
         System.out.println("==================================");
     
