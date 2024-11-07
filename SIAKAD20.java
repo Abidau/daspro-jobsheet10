@@ -28,7 +28,7 @@ public class SIAKAD20 {
         }
         System.out.println();
 
-        System.out.println("\n================================");
+        System.out.println("==================================");
         System.out.println("Rata-rata Nilai setiap Mata Kuliah");
 
         for (int j = 0; j < 3; j++) {
@@ -38,6 +38,7 @@ public class SIAKAD20 {
                 totalPerMatkul += nilai[i][j];
             }
             System.out.println("Mata Kuliah " + (j+1) + " : " + totalPerMatkul/4);
+            System.out.println("==================================");
         }
     
     sc.close();
